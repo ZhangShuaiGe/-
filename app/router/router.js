@@ -6,7 +6,7 @@
 */
 import React from "react";
 import {Router,Route,hashHistory} from "react-router";
-import Index from "../containers/index";
+import Index from "../containers/Home/index";
 import City from "../components/City";
 export default class router extends React.Component{
     render(){

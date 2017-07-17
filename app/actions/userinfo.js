@@ -13,3 +13,10 @@ export function updateCityName(data) {
         data
     }
 }
+
+export function test(data) {
+    return {
+        type: "TEST",
+        data
+    }
+}
